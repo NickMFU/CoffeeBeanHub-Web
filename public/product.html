@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--=============== BOXICONS ===============-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+     <!--=============== SWIPER CSS ===============--> 
+     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Add your existing stylesheets here -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Product Page</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+    <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+            <img src="assets/img/logoo.png" alt="nav__logo" width="200" height="100" >
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#featured" class="nav__link">Featured</a>
+                </li>
+                <li class="nav__item">
+                    <a href="product.html" class="nav__link">Products</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#new" class="nav__link">Other</a>
+                </li>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+                <i class='bx bx-x' ></i>
+            </div>
+        </div>
+
+        <div class="nav__btns">
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+            <div class="nav__shop" id="cart-shop">
+                <i class='bx bx-shopping-bag'></i>
+                <span id="cart-count">0</span>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </div>
+            <ul class="fmenu" id="mymenu">
+                <li class="fmenu-item">
+                    <div class="trigger-menu expanded">
+                        <div class="nav__profile-icon">
+                            <img src="assets/img/testimonial3.jpg" alt="Profile Picture">
+                        </div>
+                        <span class="text">John Doe</span>
+                    </div>
+                    <ul class="floating-menu">
+                        <li><a href='login.html'><i class="fa-regular fa-address-card"></i>Sign in</a></li>
+                        <li><a href='#l'><i class="fa-regular fa-address-card"></i>Profile</a></li>
+                        <li><a href='#'><i class="fa-regular fa-comment-dots"></i>Membership</a></li>
+                        <li><a href='#'><i class="fa-regular fa-money-bill-1"></i>Order History</a></li>
+                        <li><a href='#'><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
+                    </ul>
+        </div>
+    </nav>
+</header>
+
+
+    <!-- Products Section -->
+    <section class="products section container" id="products">
+        <h2 class="section__title">Products</h2>
+        <div class="products__container grid" id="products-container">
+        </div>
+    </section>
+
+    <!-- Add your existing scripts here -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/addtocart.js"></script>
+<script src="assets/js/product.js"></script>
+<script src="assets/js/productdetail.js"></script>
+    
+</body>
+
+</html>
