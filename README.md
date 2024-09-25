@@ -1,4 +1,4 @@
-# Coffee Bean Hu
+# Coffee Bean HuB - Ecomerce Website
 ![Project Logo](https://github.com/NickMFU/CoffeeBeanHub-Web/blob/main/public/assets/img/Mobile%20App%20(2).png)
 ## Overview
 
