@@ -1,4 +1,4 @@
-# Coffee Bean HuB - Ecomerce Website
+# Coffee Bean HuB - Ecommerce Website
 ![Project Logo](https://github.com/NickMFU/CoffeeBeanHub-Web/blob/main/public/assets/img/Mobile%20App%20(2).png)
 ## Overview
 
